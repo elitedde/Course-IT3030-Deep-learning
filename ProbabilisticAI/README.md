@@ -1,4 +1,4 @@
-**Project #1: Implementing autoencoder and VAE**
+**Project #2: Implementing autoencoder and VAE**
 
 
 This assignment is about generative models – that is, models that are able to generate new
