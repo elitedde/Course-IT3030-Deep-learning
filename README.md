@@ -1,4 +1,4 @@
-# Course-IT3030-Deep-learning
+# Time series forecasting
 Individual projects
 
 The electric power grid is a complex network of power lines, substations and transformers that connects producers
