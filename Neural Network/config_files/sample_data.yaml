@@ -1,0 +1,33 @@
+
+#FRACTION OF DATASET FOR TRAINING, VALIDATION AND TEST SETS
+#training set
+data_train_dim: 0.7
+#validation set
+data_val_dim: 0.2
+#test set
+data_test_dim: 0.1
+
+# IMAGE DIMENSION nxn
+n: 25
+
+#FIGURES SIZE RANGE
+#rectangle
+rect_range_height: [5, 20]
+rect_range_width: [5, 20]
+#vertical bar
+vertical_bar_width: [5, 20]
+#horizontal bar
+horizontal_bar_width: [5, 20]
+#square
+square_range: [5, 15]
+
+#NUMBER OF SAMPLES FOR EACH CLASS
+class_dimension: 500
+
+#FRACTION OF NOISE IN THE IMAGE
+noise_ratio: 0.001
+
+flatten: True
+
+#TRUE: THE IMAGE IS CENTERED
+centered: True

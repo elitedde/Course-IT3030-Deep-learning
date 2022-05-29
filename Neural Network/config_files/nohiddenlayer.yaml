@@ -1,0 +1,47 @@
+
+# options: [MSE, CROSS_ENTROPY]
+loss: CROSS_ENTROPY
+
+# options: [L1, L2, notfound]
+regularization: L1
+
+# VERBOSE = 0 ACCURACY AND LOSS NOT DISPLAYED
+# VERBOSE = 1 EPOCH ACCURACY AND LOSS DISPLAYED
+# VERBOSE = 2 BATCH LOSS IS DISPLAYED
+verbose: 1
+
+mini_batch_size: 64
+
+epochs: 100
+
+# IF TRUE: SOFTMAX LAYER IS INCLUDED
+softmax: TRUE
+regularization_rat
+e: 0.001
+
+
+
+
+#-----THIS PART REGARDS LAYERS----------
+
+# INPUT SIZE: NUMBER OF FEATURES OF EACH SAMPLE
+input_size: 625
+
+#INITIAL WEIGHT RANGES
+# options: [GLOROT_NORMAL, GLOROT_UNIFORM, [LOW, HIGH]]
+weight: [GLOROT_NORMAL]
+
+#INITIAL BIAS RANGES
+bias: [[0,1]]
+
+
+#LAYER SIZE FOR EACH LAYER
+size_layer: [4]
+
+# ACTIVATION FUNCTION FOR EACH LAYER
+# Options [SIGMOID, TANH, RELU, LINEAR]
+activation_function: [TANH]
+
+lrate: [0.01]
+
+
