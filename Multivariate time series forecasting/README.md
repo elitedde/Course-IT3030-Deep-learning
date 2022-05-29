@@ -1,3 +1,5 @@
+**Project #3: Time series forecasting**
+
 The task in this project is to train a deep neural network to forecast the need for tertiary reserves, i.e. to forecast
 the remaining imbalance after the day-ahead and Intra-day markets are cleared. 
 
